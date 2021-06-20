@@ -1,0 +1,114 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{ 
+background-color: #fff;
+color: black;
+}
+
+.form-control-plaintext{
+	color: white;
+}
+
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.containerPadding{
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+h1{
+width: 100%; 
+font-family: 'Montserrat Extrabold', sans-serif; 
+color: white;
+font-size: 
+}
+
+.bg-light{
+    background-color: #36b7a9!important;}
+
+
+.thumbnail { 
+ position: relative; 
+} 
+
+.caption { 
+ position: absolute; 
+ top: 20%; 
+ left: 0; 
+ width: 100%; 
+font-family: 'Montserrat Extrabold', sans-serif; 
+}
+
+.inicioQuiensoy{
+	margin-top: 5%;
+	text-align: center;
+	font-size:14px;
+	padding left: 3px;
+	padding-right: 3px;
+	font-family: 'Montserrat Bold', sans-serif; 
+}
+
+.typeText{
+	text-align: center;
+	justify-content: center;
+	background-color: none;
+}
+.typeDesign{
+	background: linear-gradient(black, white, black );
+	padding-top: 5%;
+	padding-bottom: 5%;
+	justify-content: center;
+	align-content: center;
+
+}
+
+.separator{
+	padding-right: 3px;
+}
+
+.align-items-center{
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+
+.conteinerPadding{
+	background-color: black;
+	color: white;
+}
+
+.modificandoelFooter{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+.subfinalFooter{
+	text-align: center;
+	font-size: 14px;
+	padding-top: 4%
+}
+
+
+.finalFooter{
+	text-align: center;
+	font-size: 11px;
+}
+
+
+@media (min-width: 768px) {
+  .h1 {
+  	width: 100%; 
+font-family: 'Montserrat Extrabold', sans-serif; 
+color: white;
+
+}
+    
+  }
