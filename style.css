@@ -1,114 +1,290 @@
-*{
-	font-family: 'Montserrat', sans-serif;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap");
+
+.paddingOntop{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
 }
 
-body{ 
-background-color: #fff;
-color: black;
+.paddingOntopException{
+  padding-top: 50px;
+  padding-bottom: 0px;
 }
 
-.form-control-plaintext{
-	color: white;
+.align-items-center {
+  justify-content: center;
+  align-items: center; }
+
+.container-fluid {
+  align-items: center;
+  justify-content: center;
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.tituloPortada--tamañotituloPortada {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+
+.lightbox {
+  padding-bottom: 100px; }
+
+.align-items-center {
+  justify-content: center;
+  align-items: center; }
+
+.container-fluid {
+  align-items: center;
+  justify-content: center; }
+
+.tituloPortada--tamañotituloPortada {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+
+.lightbox {
+  padding-bottom: 100px; }
+
+.bg-light {
+  background-color: #36b7a9 !important; }
+..bg-light--paddingImage{
+  margin-right: 600px;
 }
 
+header {
+  background-color: #36b7a9; }
 
-.container-fluid{
-	padding-left: 0px;
-	padding-right: 0px;
-}
+nav {
+  background-color: #36b7a9; }
 
-.containerPadding{
-	padding-top: 2%;
-	padding-bottom: 1%;
-}
-
-h1{
-width: 100%; 
-font-family: 'Montserrat Extrabold', sans-serif; 
-color: white;
-font-size: 
-}
-
-.bg-light{
-    background-color: #36b7a9!important;}
+.navbar navbar-expand-lg navbar-light bg-light {
+  background-color: #36b7a9; }
 
 
 .thumbnail { 
- position: relative; 
-} 
+ position: relative; } 
 
 .caption { 
  position: absolute; 
  top: 20%; 
  left: 0; 
  width: 100%; 
-font-family: 'Montserrat Extrabold', sans-serif; 
+font-family: 'Montserrat Extrabold', sans-serif; }
+.caption--color{
+  color: white;
+  padding-top: 3%;
+  font-size: 500%;
+}
+.caption--colorBlack{
+  color: black;
+  font-size: 500%;
+  padding-top: 3%;
 }
 
-.inicioQuiensoy{
-	margin-top: 5%;
-	text-align: center;
-	font-size:14px;
-	padding left: 3px;
-	padding-right: 3px;
-	font-family: 'Montserrat Bold', sans-serif; 
+.inicioQuiensoy {
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+  .inicioQuiensoy__titulo {
+    color: #36b7a9;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive; }
+    .inicioQuiensoy__titulo .inicioQuiensoy__titulo__parrafo {
+      size: 14px;
+      color: black;
+      font-family: 'Montserrat Bold', sans-serif; }
+
+.aboutMe {
+  padding-top: 10px;
+  background-color: #eaeaea;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+  .aboutMe__titulo {
+    color: #36b7a9;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive; }
+    .aboutMe__titulo .inicioQuiensoy__titulo__parrafo {
+      size: 14px;
+      color: black;
+      font-family: 'Montserrat Bold', sans-serif; }
+
+.typeDesign {
+  background-color: black !important;
+  align-items: center;
+  justify-content: center; }
+  .typeDesign__typeOfDesignText {
+    color: #36b7a9;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive; 
+    padding-bottom: 20px;}
+
+.card{
+  margin-right: 30px;
+}
+.modificandoelFooter {
+  text-align: center;
+  background-color: black;
+  color: white; }
+  .modificandoelFooter__subfinalFooter {
+    font-size: 16px;
+    padding-top: 4%; }
+    .modificandoelFooter__subfinalFooter--tamaño {
+      font-size: 11px;
+      padding-bottom: 5px; }
+
+.main {
+  background-color: #fff;
+}
+.trabajosPortfolio {
+  padding-bottom: 30px; }
+
+.conteinerContacto {
+  padding-top: 5px;
+  background-color: white;
+  }
+
+  .form-inline {
+    justify-content: center;
+  }
+
+
+/*carrousel clientes Amigos*/
+
+#carrusel {
+    float:left;
+    width:600px;
+    overflow:hidden;
+    height:203px;
+    position:relative;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+ 
+#carrusel .left-arrow {
+    position:absolute;
+    left:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+ 
+#carrusel .right-arrow {
+    position:absolute;
+    right:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+ 
+.carrusel {
+    width:4000px;
+    left:0px;
+    z-index:0;
+}
+ 
+.carrusel>div {
+    float: left;
+    margin-right: 5px;
+    width: 195px;
+    text-align:center;
+}
+ 
+.carrusel img {
+    cursor:pointer;
+}
+ 
+.product {
+    border:#CCCCCC 1px solid;
 }
 
-.typeText{
-	text-align: center;
-	justify-content: center;
-	background-color: none;
-}
-.typeDesign{
-	background: linear-gradient(black, white, black );
-	padding-top: 5%;
-	padding-bottom: 5%;
-	justify-content: center;
-	align-content: center;
 
+
+/*GALERIA DE IMAGENES*/
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 }
 
-.separator{
-	padding-right: 3px;
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
 }
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+  .tituloPortada--tamaÃ±otituloPortada{
+  font-size: 200%;
+  }
+
+
+
+
+
+@media (min-width: 320px) {
+  .caption--color{
+  font-size: 200%;}
+    .caption--colorBlack{
+  font-size: 200%;}
 
 .align-items-center{
-	align-items: center;
-	text-align: center;
-	justify-content: center;
+  justify-content: center!important;
+  align-items: center;
 }
-
-
-.conteinerPadding{
-	background-color: black;
-	color: white;
-}
-
-.modificandoelFooter{
-	text-align: center;
-	background-color: black;
-	color: white;
-}
-
-.subfinalFooter{
-	text-align: center;
-	font-size: 14px;
-	padding-top: 4%
-}
-
-
-.finalFooter{
-	text-align: center;
-	font-size: 11px;
-}
-
-
-@media (min-width: 768px) {
-  .h1 {
-  	width: 100%; 
-font-family: 'Montserrat Extrabold', sans-serif; 
-color: white;
-
-}
-    
-  }
